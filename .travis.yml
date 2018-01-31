@@ -2,12 +2,7 @@ language: node_js
 node_js:
   - "node"
 
-script:
-  - "npm build"
-
-deploy:
-  provider: surge
-  project: ./src/public/
-  skip_cleanup: true
+after_success:
+  - surge --project ./src/public --domain officeNgoogledocs.surge.sh
 
 

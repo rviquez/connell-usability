@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 export default ({ transition }) => (
   <div style={transition && transition.style}>
     <h3>Tips para una mejor busqueda: </h3>
+    <p>
     <ul>
       <li>Empezar sencillo</li>
       <li>Tabs de google</li>
@@ -22,5 +23,6 @@ export default ({ transition }) => (
         </ul>
       </li>
     </ul>
+    </p>
   </div>
 );

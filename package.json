@@ -1,13 +1,14 @@
 {
-  "name": "gatsby-deck",
-  "description": "Create presentations using Gatsby & React.",
+  "name": "connell-usablity",
+  "description": "Presentation to show tips on google searches and docs, Office",
   "version": "1.0.0",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Roberto Viquez <robertoviquez@gmail.com>",
   "dependencies": {
     "babel-plugin-include": "^1.2.0",
     "gatsby": "^1.9.119",
     "gatsby-cli": "^1.1.23",
     "gatsby-link": "^1.6.28",
+    "gatsby-plugin-i18n": "^0.4.1",
     "gatsby-plugin-offline": "^1.0.10",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "history": "^4.7.2",
@@ -22,7 +23,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "devDependencies": {
     "prettier": "^1.8.2"

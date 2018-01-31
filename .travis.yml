@@ -4,5 +4,4 @@ node_js:
 
 deploy:
   provider: surge
-  project: .src/public/
   skip_cleanup: true

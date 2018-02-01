@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 
 export default ({ transition }) => (
   <div style={transition && transition.style}>
-    <img src="https://i.imgur.com/PnbINJ6.gif" alt="Monkey" />
+    <h2>Formulas</h2>
+    <iframe src="https://giphy.com/embed/ohdY5OaQmUmVW" width="480" height="205"
+    frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   </div>
 );
